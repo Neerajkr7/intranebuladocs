@@ -521,7 +521,7 @@ const CodeBlock = ({ code }) => (
   </pre>
 );
 
-export default function App() {
+export default function ChunksPage() {
   const [activeTopic, setActiveTopic] = useState(topics[0].id);
   const [expandedSection, setExpandedSection] = useState(null);
 

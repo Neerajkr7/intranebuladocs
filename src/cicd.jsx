@@ -1711,7 +1711,7 @@ kubectl rollout undo deployment/tradeease-api -n production`} />
 
 // ─── MAIN APP ────────────────────────────────────────────────────────────────
 
-export default function App() {
+export default function CicdPage() {
   const [active, setActive] = useState("bigpicture");
   const [sidebarOpen, setSidebarOpen] = useState(true);
 

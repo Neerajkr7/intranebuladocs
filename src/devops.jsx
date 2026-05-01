@@ -804,7 +804,7 @@ function QuizModule() {
   );
 }
 
-export default function App() {
+export default function DevopsPage() {
   const [active, setActive] = useState(0);
   const icons = ["🗺", "📦", "⚙️", "🔁", "🌐", "🔗", "🧠"];
   const moduleComponents = [<OverviewModule />, <DockerModule />, <K8sModule />, <JenkinsModule />, <DNSModule />, <FullFlowModule />, <QuizModule />];
